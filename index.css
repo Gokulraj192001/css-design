@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Main_Container {
+    width: 1349px;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Assets/Pizza\ Ba.jpg);
+    background-size: 100%;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 1225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header_Box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1225px;
+    margin-top: 30px;
+    
+}
+
+.Logo_P {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 52px;
+    letter-spacing: 4px;
+}
+
+.Heater_Letter {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-left: 650px;
+}
+
+.Header_Name {
+    color: white;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.Header_Name:hover {
+    color: palegreen;
+}
+
+.Box2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    margin-top: 120px;
+    margin-left: 550px;
+    gap: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: palegreen;
+    text-decoration:underline;
+}
+.Box2_Heater {
+    width: 390px;
+}
+.Label {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 49px;
+    font-weight: bold;
+}
+.Love {
+    color: red;
+}
+.Para {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.New_Button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    border: none;
+}
+.New_Button:hover {
+    background-color: lightsteelblue;
+}
+.Button_Para {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
